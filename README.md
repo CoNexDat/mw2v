@@ -2,9 +2,9 @@
 
 Folders:
 Each of the folders correspond to a different dataset. 
-* NYT: files for New York Times newspaper dataset. Slices are years, from.... 
-* TG: files for The Guardian newspaper dataset. Slices are years, from....
-* NYT-TG: files for the two-source model, where one slice is the NYT during ... period and the other one is the TG during the ... period.
+* NYT: files for New York Times newspaper dataset. Slices are years, from 1990 to 2016.
+* TG: files for The Guardian newspaper dataset. Slices are years, from 1999 to 2016.
+* NYT-TG: files for the two-source model, where one slice is the NYT and the other one is the TG, both during the 2010-2016 period.
 
 Files description:
 * Files starting with delta and mean contain the trained words embedding for each of the datasets.
