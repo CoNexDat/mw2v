@@ -1,7 +1,7 @@
 # mw2v
 
 Folders:
-Each of the folders correspond to a different dataset: 
+Each of the folders correspond to a different dataset. 
 * NYT: files for New York Times newspaper dataset. Slices are years, from.... 
 * TG: files for The Guardian newspaper dataset. Slices are years, from....
 * NYT-TG: files for the two-source model, where one slice is the NYT during ... period and the other one is the TG during the ... period.
@@ -9,6 +9,6 @@ Each of the folders correspond to a different dataset:
 Files description:
 * Files starting with delta and mean contain the trained words embedding for each of the datasets.
 * Files starting with sampling_tables and word_index are used to perform the negative/positive sampling during the parallel training of each slice embedding. 
-* Files starting with triplets contains the list with the triples (word, label, slice) to be used for semantic similarity evaluation. 
-* 
-Alignment test for alignment quality
+* Files starting with triplets contains the list with the triples (word, label, slice) to be used for semantic similarity evaluation of the embeddings. 
+* Files starting with alignment contains the list with the pairs (word_1, slice_1) , (word_2, slice_2) to be used for alignment quality evaluation of the embeddings. 
+
